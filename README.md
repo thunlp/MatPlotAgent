@@ -25,6 +25,10 @@ The integration of LLMs into scientific data visualization represents a new fron
   2. **Code Generation with Iterative Debugging**: Uses code to preprocess data and generate figures, with self-debugging capabilities.
   3. **Visual Feedback Mechanism**: Employs visual perceptual abilities for error identification and correction.
 
+<div align="center">
+  <img src="workflow.png" alt="matplotagent framework">
+</div>
+
 - **MatPlotBench**: A high-quality benchmark of 100 human-verified test cases alongside a scoring approach utilizing GPT-4V for automatic evaluation, demonstrating strong correlation with human-annotated scores.
 
 - **Generalizability**: Demonstrated effectiveness with various LLMs, including commercial and open-source models.
