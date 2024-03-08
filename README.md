@@ -100,7 +100,7 @@ bash models/scripts/CodeLlama-34b-Instruct-hf.sh
 
 If you need to modify the script's content, please refer to the [vLLM documentation](https://docs.vllm.ai/en/latest/index.html).
 
-### Running MatPlotAgent Framework
+#### Running MatPlotAgent Framework
 
 To execute the MatPlotAgent framework, use the following script:
 
