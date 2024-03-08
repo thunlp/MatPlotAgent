@@ -1,0 +1,14 @@
+openai
+regex
+tenacity
+torch
+transformers
+accelerate
+matplotlib
+plotly
+seaborn
+kaleido
+ternary
+scikit-learn
+holoviews
+vllm

@@ -1,0 +1,13 @@
+﻿Series,Wavelength,l position,p position
+Lyman Series,122 nm,1,2
+Lyman Series,103 nm,1,3
+Lyman Series,97 nm,1,4
+Lyman Series,95 nm,1,5
+Lyman Series,94 nm,1,6
+Balmer Series,656 nm,2,3
+Balmer Series,486 nm,2,4
+Balmer Series,434 nm,2,5
+Balmer Series,410 nm,2,6
+Paschen Series,1875 nm,3,4
+Paschen Series,1282 nm,3,5
+Paschen Series,1094 nm,3,6

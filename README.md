@@ -64,8 +64,95 @@ This project opensources the following components to foster further research and
 - **Evaluation Pipeline**: Utilizes GPT-4V for automatic evaluation, offering a reliable metric that correlates strongly with human judgment.
 - **MatPlotAgent Framework**: The entire codebase for the MatPlotAgent framework is available, encouraging adaptation and improvement by the community.
 
-#TODO
-[Instructions on how to access and use the benchmark data, evaluation pipeline, and the MatPlotAgent framework.]
+<!-- #TODO
+[Instructions on how to access and use the benchmark data, evaluation pipeline, and the MatPlotAgent framework.] -->
+
+Benchmark Data (MatPlotBench) can be found in the `./benchmark_data` folder.
+
+The code requires some dependencies as specified in requirements.txt. Please follow the relevant libraries to install or run:
+
+```
+pip install -r requirements.txt
+```
+
+
+### MatPlotAgent Framework
+
+#### Configuration
+
+If you're using the open-source model, please download the model to your local machine first and adjust the location of the corresponding model in `models/model_config.py`.
+
+If you're using GPT-3.5 or GPT-4, please update your `API_KEY` in `agents/config/openai.py`.
+
+#### Running OpenAI-Compatible Server
+
+If you're utilizing GPT-3.5 or GPT-4, you can skip this section.
+
+We use vLLM to deploy the open-source model as a server, implementing the OpenAI API protocol. This enables vLLM to seamlessly replace applications using the OpenAI API.
+
+Ensure you have vLLM installed and configured on your local machine.
+
+We provide scripts to deploy the API server. For instance, to deploy `CodeLlama-34b-Instruct`, you can execute:
+
+```
+bash models/scripts/CodeLlama-34b-Instruct-hf.sh
+```
+
+If you need to modify the script's content, please refer to the [vLLM documentation](https://docs.vllm.ai/en/latest/index.html).
+
+### Running MatPlotAgent Framework
+
+To execute the MatPlotAgent framework, use the following script:
+
+```bash
+python workflow.py \
+    --model_type=MODEL \
+    --workspace=path/to/result
+```
+
+Replace `MODEL` with the desired model. All available `model_type` options can be found in `models/model_config.py`.
+
+Replace `path/to/result` with the desired path to save the results.
+
+For direct decoding, use:
+
+```bash
+python one_time_generate.py \
+    --model_type=MODEL \
+    --workspace=path/to/result
+```
+
+For zero-shot COT, use:
+
+```bash
+python one_time_generate_COT.py \
+    --model_type=MODEL \
+    --workspace=path/to/result
+```
+
+### Evaluation Pipeline
+
+After running the MatPlotAgent Framework, you can utilize the Evaluation Pipeline to obtain automatic evaluation scores.
+
+First, replace `directory_path` with `path/to/result` in `evaluation/api_eval.py` and `evaluation/average_score_calc.py`.
+
+Then, run:
+
+```bash
+cd evaluation
+bash eval.sh
+```
+
+After running the above command, execute:
+
+```bash
+python average_score_calc.py
+```
+
+You will receive the score.
+
+
+
 
 ## Experiment Results
 
