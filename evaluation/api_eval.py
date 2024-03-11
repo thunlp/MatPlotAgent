@@ -170,49 +170,10 @@ def mainworkflow(test_sample_id, workspace, direct_eval=False):
         logging.info('=========Novice 3.5 Plotting=========')
         logging.info(action_agent.run_novice('gpt-3.5-turbo', 'novice_35.png'))
 
-    for model_type in ['gpt-4_gemini_concise']:
+    for model_type in ['model_name']:
         for query_type in ['novice']:
             print(f'=========Evaluating {model_type} {query_type}=========')
             ground_truth = f"example_{test_sample_id}.png"
-            file_name = f'code_action_{model_type}_{query_type}_0.py'
-            # with open(os.path.join(directory, file_name), 'r') as f:
-            #     code = f.read()
-
-            '''if model_type == 'gpt-4' and query_type == 'expert':
-                logging.info(f'=========Evaluating {model_type} {query_type}=========')
-                query = expert_instruction
-                image = f'{directory}/expert_4.png'
-
-                # code_result = gpt_4_evaluate(code, query, image)
-                # logging.info(code_result)
-
-                plot_result = gpt_4v_evaluate(query, ground_truth, image)
-                logging.info(plot_result)
-
-            elif model_type == 'gpt-3.5-turbo' and query_type == 'expert':
-                logging.info(f'=========Evaluating {model_type} {query_type}=========')
-                query = expert_instruction
-                image = f'{directory}/expert_35.png'
-
-                # code_result = gpt_4_evaluate(code, query, image)
-                # logging.info(code_result)
-
-                plot_result = gpt_4v_evaluate(query, ground_truth, image)
-                logging.info(plot_result)'''
-
-            '''if model_type == 'gpt-4' and query_type == 'novice':
-                logging.info(f'=========Evaluating {model_type} {query_type}=========')
-                query = simple_instruction
-                image = f'{directory}/novice_4_final.png'
-                image_rollback = f'{directory}/novice_4.png'
-
-                # code_result = gpt_4_evaluate(code, query, image)
-                # logging.info(code_result)
-
-                plot_result = gpt_4v_evaluate(ground_truth, image, image_rollback)
-                logging.info(plot_result)'''
-
-            # model_type == 'Magicoder-S-DS-6.7B' and query_type == 'novice':
             logging.info(f'=========Evaluating {model_type} {query_type}=========')
             query = simple_instruction
 
@@ -225,18 +186,7 @@ def mainworkflow(test_sample_id, workspace, direct_eval=False):
             plot_result = gpt_4v_evaluate(ground_truth, image, image_rollback)
             logging.info(plot_result)
 
-            '''elif model_type == 'gpt-3.5-turbo' and query_type == 'novice':
-                logging.info(f'=========Evaluating {model_type} {query_type}=========')
-                query = simple_instruction
 
-                image = f'{directory}/novice_35_final.png'
-                image_rollback = f'{directory}/novice_35.png'
-
-                # code_result = gpt_4_evaluate(code, query, image)
-                # logging.info(code_result)
-
-                plot_result = gpt_4v_evaluate(ground_truth, image, image_rollback)
-                logging.info(plot_result)'''
 
 
 if __name__ == "__main__":

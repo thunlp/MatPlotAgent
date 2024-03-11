@@ -16,7 +16,7 @@ for idx in range(1, 101):
 
     # Regular expression to match evaluation settings and scores
     # pattern = r'Evaluating (gpt-(?:4|3\.5-turbo) \w+).*?\[FINAL SCORE\]: (\d{1,3})'
-    pattern = r'Evaluating (gpt-4_llava-v1.6-34b \w+).*?\[FINAL SCORE\]: (\d{1,3})'
+    pattern = r'Evaluating (model_name \w+).*?\[FINAL SCORE\]: (\d{1,3})'
 
     # Find all matches
     matches = re.findall(pattern, log_contents, re.DOTALL)
