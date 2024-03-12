@@ -178,7 +178,7 @@ def mainworkflow(test_sample_id, workspace, direct_eval=False):
             logging.info(f'=========Evaluating {model_type} {query_type}=========')
             query = simple_instruction
 
-            image = f'{directory}/novice_debug.png'
+            image = f'{directory}/novice_final.png'
             image_rollback = f'{directory}/novice.png'
 
                 # code_result = gpt_4_evaluate(code, query, image)
