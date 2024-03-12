@@ -139,13 +139,13 @@ First, replace `directory_path` with `path/to/result` in `evaluation/api_eval.py
 Then, run:
 
 ```bash
-cd evaluation
-bash eval.sh
+bash evaluation/eval.sh
 ```
 
 After running the above command, execute:
 
 ```bash
+cd evaluation
 python average_score_calc.py
 ```
 
