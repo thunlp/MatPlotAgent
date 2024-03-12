@@ -6,6 +6,7 @@ import re
 import shutil
 import glob
 import sys
+sys.path.insert(0, sys.path[0]+"/../")
 from agents.utils import is_run_code_success
 from agents.plot_agent import PlotAgent
 from openai import OpenAI
