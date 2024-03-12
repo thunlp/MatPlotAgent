@@ -2,7 +2,7 @@ import json
 import re
 import pdb
 
-test_sample_id = [3, 5, 6, 20, 23, 25, 29, 31, 34, 42, 48, 54, 60, 66, 69, 80, 84, 92, 96, 100]
+
 all_scores = []
 directory_path = f'./your_workspace'
 for idx in range(1, 101):
