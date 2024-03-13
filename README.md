@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="title.png" alt="MatPlotAgent" width="200">
+<img src="title.png" alt="MatPlotAgent" width="400">
 
 **MatPlotAgent: Enhancing Scientific Data Visualization with LLMs**
 
