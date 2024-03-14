@@ -5,7 +5,7 @@
 **MatPlotAgent: Enhancing Scientific Data Visualization with LLMs**
 
 <p align="center">•
- <a href="# Introduction"> Introduction </a> •
+ <a href="# 📖 Introduction"> Introduction </a> •
  <a href="# News">News</a> •
  <a href="# Contributions">Contributions</a> •
  <a href="# Getting-Started">Getting Started</a> •
