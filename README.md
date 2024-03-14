@@ -5,13 +5,12 @@
 **MatPlotAgent: Enhancing Scientific Data Visualization with LLMs**
 
 <p align="center">•
- <a href="#Introduction"> Introduction </a> •
-  <a href="#News">News</a> •
- <a href="#Contributions">Contributions</a> •
- <a href="#Getting-Started">Getting Started</a> •
- <a href="#Experiment-Results">Experiment Results</a> •
- <a href="#Citation"> Citation </a> •
- <a href="https://arxiv.org/abs/2402.11453">Paper</a>
+ <a href="#introduction"> 📖 Introduction </a> •
+ <a href="#contributions">✨ Contributions</a> •
+ <a href="#getting-started">⚡️ Getting Started</a> •
+ <a href="#experiment-results">📊 Experiment Results</a> •
+ <a href="#citation">🔎 Citation </a> •
+ <a href="https://arxiv.org/abs/2402.11453">📃 Paper</a>
 </p>
 </div>
 
@@ -183,10 +182,4 @@ Feel free to cite the paper if you think MatPlotAgent is useful.
 }
 ```
 
-## 🤝 How to Contribute
-
-We welcome contributions from the community! Whether it's by providing feedback, submitting issues, or proposing pull requests, your input is valuable in advancing this project.
-
-#TODO
-[Include link to the GitHub repository and contact information for the project maintainers.]
 
