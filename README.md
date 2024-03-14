@@ -20,7 +20,12 @@ Scientific data visualization is crucial for conveying complex information in re
 
 The integration of LLMs into scientific data visualization represents a new frontier in technologies aiding research. Current tools for humans, such as Matplotlib and Origin, pose challenges in transforming raw data into insightful visualizations due to time-consuming and labor-intensive processes. **MatPlotAgent** is conceived to bridge this gap, leveraging LLM capabilities to enhance human efficiency significantly. **MatPlotBench** is curated to further traction the field of AI-automated scientific data visualization by providing a comprehensive benchmark and trustworthy automatic evaluation method.
 
-## 👨‍💻‍ Contributions
+## 🎉 News
+
+* March 7,2024: Releasing the MatPlotAgent, an innovative and model-agnostic framework designed to revolutionize scientific data visualization by automating tasks with advanced LLMs, and introducing MatPlotBench, a comprehensive and meticulously curated benchmark that sets a new standard for evaluating AI-driven visualization tools. 🌟
+
+
+## ✨ Contributions
 
 - **MatPlotAgent Framework**: Comprises three core modules for a comprehensive approach to data visualization:
   1. **Query Expansion**: Thoroughly interprets user requirements and transform them into LLM-friendly instructions
@@ -35,26 +40,6 @@ The integration of LLMs into scientific data visualization represents a new fron
 
 - **Generalizability**: Demonstrated effectiveness with various LLMs, including commercial and open-source models.
 
-## ✨ Benchmark Construction
-### 🧾 Data Collection Process
-
-The construction of MatPlotBench adhered to principles ensuring diversity in plot types, representativeness of scientific visualization features, and a balance of varying difficulty levels. Original examples were carefully selected from reputable online scientific data visualization forums such as Matplotlib Gallery and OriginLab GraphGallery, covering a wide range of plot types from basic bars and lines to more complex and aesthetic diagrams like Sankey and sunburst charts. This diversity ensures the benchmark's comprehensive coverage of potential scientific visualization needs.
-
-### 💻 Benchmarks Design
-
-To create the final test cases, original examples underwent modifications including preliminary query generation using LLMs, data replacement to prevent memorization by models, and human modification to refine the queries, ensuring they accurately reflect realistic visualization tasks. This rigorous process culminated in 100 high-quality test cases, each consisting of a user query, the corresponding input data, and a ground-truth figure.
-
-<div align="center">
-  <img src="construction.png" alt="benchmark construction process">
-</div>
-
-### 🎓 Evaluation
-
-MatPlotBench emphasizes the importance of automatic quantitative evaluation. We introduced a novel scoring approach utilizing GPT-4V, a powerful multi-modal LLM, for automatic evaluation. This method was demonstrated to strongly correlate with human-annotated scores, validating its effectiveness and reliability. Such an approach not only facilitates the benchmarking of AI-driven visualization tools but also paves the way for future advancements by providing a standardized metric for performance assessment.
-
-<div align="center">
-  <img src="corr.png" alt="correlation between human and automatic scores">
-</div>
 
 ## ⚡️ Getting Started
 
