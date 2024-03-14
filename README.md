@@ -5,12 +5,12 @@
 **MatPlotAgent: Enhancing Scientific Data Visualization with LLMs**
 
 <p align="center">•
- <a href="#Introduction"> Introduction </a> •
- <a href="#News">News</a> •
- <a href="#Contributions">Contributions</a> •
- <a href="#Getting-Started">Getting Started</a> •
- <a href="#Experiment-Results">Experiment Results</a> •
- <a href="#Citation"> Citation </a> •
+ <a href="# Introduction"> Introduction </a> •
+ <a href="# News">News</a> •
+ <a href="# Contributions">Contributions</a> •
+ <a href="# Getting-Started">Getting Started</a> •
+ <a href="# Experiment-Results">Experiment Results</a> •
+ <a href="# Citation"> Citation </a> •
  <a href="https://arxiv.org/abs/2402.11453">Paper</a>
 </p>
 </div>
