@@ -8,7 +8,7 @@
  <a href="#-introduction"> Introduction </a> •
  <a href="#-news">News</a> •
  <a href="#-contributions">Contributions</a> •
- <a href="#EF%B8%8F-getting-started">Getting Started</a> •
+ <a href="#%EF%B8%8F-getting-started">Getting Started</a> •
  <a href="#-experiment-results">Experiment Results</a> •
  <a href="#-citation"> Citation </a> •
  <a href="https://arxiv.org/abs/2402.11453">Paper</a>
