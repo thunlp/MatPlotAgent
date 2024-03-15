@@ -1,7 +1,5 @@
 import json
 import re
-import pdb
-
 
 all_scores = []
 directory_path = f'./your_workspace'
@@ -14,8 +12,7 @@ for idx in range(1, 101):
     with open(log_file_path, 'r') as file:
         log_contents = file.read()
 
-    # Regular expression to match evaluation settings and scores
-    # pattern = r'Evaluating (gpt-(?:4|3\.5-turbo) \w+).*?\[FINAL SCORE\]: (\d{1,3})'
+
     pattern = r'Evaluating (model_name \w+).*?\[FINAL SCORE\]: (\d{1,3})'
 
     # Find all matches
@@ -26,10 +23,7 @@ for idx in range(1, 101):
     scores.update({'id': idx})
     for setting, score in matches:
         scores[setting] = int(score)
-    # pdb.set_trace()
-    # scores['id'] = idx
 
-    # print(scores)
     all_scores.append(scores)
 
 with open(f"{directory_path}/automatic_eval_rollback.json", 'w') as f:
@@ -64,4 +58,4 @@ average_scores = {setting: total_scores[setting] / count[setting] for setting in
 
 print('average scores:')
 print(average_scores)
-# print(undone_list)
+

@@ -1,16 +1,6 @@
-from copy import deepcopy
-import json
-import os
-import re
-import traceback
-from typing import List
 from .prompt import SYSTEM_PROMPT, EXPERT_USER_PROMPT
 from agents.openai_chatComplete import completion_with_backoff, completion_with_log
 from agents.utils import fill_in_placeholders, get_error_message, is_run_code_success, print_chat_message
-from agents.utils import print_filesys_struture
-from agents.utils import change_directory
-from agents.utils import run_code
-import logging
 
 
 class QueryExpansionAgent():

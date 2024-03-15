@@ -4,13 +4,9 @@ import re
 from tqdm import tqdm
 from agents.query_expansion_agent import QueryExpansionAgent
 from agents.plot_agent import PlotAgent
-from agents.code_refine_agent import CodeRefineAgent
 from agents.visual_refine_agent import VisualRefineAgent
 import logging
 import os
-import shutil
-import glob
-import sys
 from agents.utils import is_run_code_success, run_code, get_code
 import argparse
 

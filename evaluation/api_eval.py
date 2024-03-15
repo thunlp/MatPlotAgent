@@ -12,7 +12,7 @@ from agents.plot_agent import PlotAgent
 from openai import OpenAI
 from agents.config.openai import API_KEY, BASE_URL, temperature
 
-# Function to encode the image
+
 def encode_image(image_path):
     with open(image_path, "rb") as image_file:
         return base64.b64encode(image_file.read()).decode('utf-8')
@@ -128,9 +128,9 @@ def gpt_4v_evaluate(ground_truth, image, rollback):
 
 def mainworkflow(test_sample_id, workspace, direct_eval=False):
     directory = f'{workspace}/example_{test_sample_id}'
-    # Check if the directory already exists
+
     if not os.path.exists(directory):
-        # If it doesn't exist, create the directory
+
         os.mkdir(directory)
         print(f"Directory '{directory}' created successfully.")
     else:
@@ -181,8 +181,7 @@ def mainworkflow(test_sample_id, workspace, direct_eval=False):
             image = f'{directory}/novice_final.png'
             image_rollback = f'{directory}/novice.png'
 
-                # code_result = gpt_4_evaluate(code, query, image)
-                # logging.info(code_result)
+
 
             plot_result = gpt_4v_evaluate(ground_truth, image, image_rollback)
             logging.info(plot_result)

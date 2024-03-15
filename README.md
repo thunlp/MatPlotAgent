@@ -7,7 +7,8 @@
 <p align="center">•
  <a href="#-introduction"> 📖Introduction </a> •
  <a href="#-news">🎉News</a> •
- <a href="#-contributions">✨Contributions</a> •
+ <a href="#-matplotagent">✨MatPlotAgent</a> •
+ <a href="#-matplotbench">🎖MatPlotBench</a> •
  <a href="#%EF%B8%8F-getting-started">⚡️Getting Started</a> •
  <a href="#-experiment-results">📊Experiment Results</a> •
  <a href="#-citation">🔎Citation </a> •
@@ -25,20 +26,24 @@ Integrating LLMs into scientific data visualization represents a new frontier in
 * March 7, 2024: Releasing the MatPlotAgent, an innovative and model-agnostic framework designed to revolutionize scientific data visualization by automating tasks with advanced LLMs, and introducing MatPlotBench, a comprehensive and meticulously curated benchmark that sets a new standard for evaluating AI-driven visualization tools. 🌟
 
 
-# ✨ Contributions
+# ✨ MatPlotAgent
 
-- **MatPlotAgent Framework**: Comprises three core modules for a comprehensive approach to data visualization:
   1. **Query Expansion**: Thoroughly interprets user requirements and transform them into LLM-friendly instructions
   2. **Code Generation with Iterative Debugging**: Uses code to preprocess data and generate figures, with self-debugging capabilities.
   3. **Visual Feedback Mechanism**: Employs visual perceptual abilities for error identification and correction.
+  4. **Generalizability**: Demonstrated effectiveness with various LLMs, including commercial and open-source models.
 
 <div align="center">
   <img src="assets/workflow.png" alt="matplotagent framework">
 </div>
 
-- **MatPlotBench**: A high-quality benchmark of 100 human-verified test cases alongside a scoring approach utilizing GPT-4V for automatic evaluation, demonstrating strong correlation with human-annotated scores.
+# 🎖 MatPlotBench
 
-- **Generalizability**: Demonstrated effectiveness with various LLMs, including commercial and open-source models.
+A high-quality benchmark of 100 human-verified test cases alongside a scoring approach utilizing GPT-4V for automatic evaluation, demonstrating strong correlation with human-annotated scores.
+
+<div align="center">
+  <img src="assets/example.png" alt="some examples of MatPlotBench">
+</div>
 
 
 # ⚡️ Getting Started
