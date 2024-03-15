@@ -18,7 +18,7 @@
 # 📖 Introduction
 Scientific data visualization is crucial for conveying complex information in research, aiding in the identification of implicit patterns. Despite the potential, the use of Large Language Models (LLMs) for this purpose remains underexplored. **MatPlotAgent** introduces an innovative, model-agnostic LLM agent framework designed to automate scientific data visualization tasks, harnessing the power of both code LLMs and multi-modal LLMs.
 
-The integration of LLMs into scientific data visualization represents a new frontier in technologies aiding research. Current tools for humans, such as Matplotlib and Origin, pose challenges in transforming raw data into insightful visualizations due to time-consuming and labor-intensive processes. **MatPlotAgent** is conceived to bridge this gap, leveraging LLM capabilities to enhance human efficiency significantly. **MatPlotBench** is curated to further traction the field of AI-automated scientific data visualization by providing a comprehensive benchmark and trustworthy automatic evaluation method.
+Integrating LLMs into scientific data visualization represents a new frontier in technology that supports research. Existing tools, such as Matplotlib and Origin, are challenging for many people and learning these tools is time-consuming. **MatPlotAgent** is conceived to bridge this gap, leveraging LLM capabilities to enhance human efficiency significantly. **MatPlotBench** is curated to further traction the field of AI-automated scientific data visualization by providing a comprehensive benchmark and trustworthy automatic evaluation method.
 
 # 🎉 News
 
