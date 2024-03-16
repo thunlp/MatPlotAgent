@@ -172,7 +172,7 @@ Additionally, we present the results of using Gemini Pro Vision as the visual ag
 
 We assessed MatPlotAgent's performance on the visualization subset of the Code Interpreter Benchmark, which was released alongside Qwen-agent, witnessing notable improvements over GPT-4. These results underscore the efficacy of our approach in enhancing visualization capabilities.
 
-<table border="1" align="center">
+<table>
   <thead>
     <tr>
       <th rowspan="2"><strong>Model</strong></th>
