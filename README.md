@@ -5,14 +5,16 @@
 **MatPlotAgent: Enhancing Scientific Data Visualization with LLMs**
 
 <p align="center">•
- <a href="#-introduction"> 📖  Introduction </a> •
- <a href="#-news">🎉  News</a> •
- <a href="#-matplotagent">✨  MatPlotAgent</a> •
- <a href="#-matplotbench">🎖  MatPlotBench</a> •
- <a href="#%EF%B8%8F-getting-started">⚡️  Getting Started</a> •
- <a href="#-experiment-results">📊  Experiment Results</a> •
- <a href="#-citation">🔎  Citation </a> •
- <a href="https://arxiv.org/abs/2402.11453">📃  Paper</a>
+ <a href="#-introduction"> 📖Introduction </a> •
+ <a href="#-news">🎉News</a> •
+ <a href="#-matplotagent">✨MatPlotAgent</a> •
+ <a href="#-matplotbench">🎖MatPlotBench</a> •
+ <a href="#%EF%B8%8F-getting-started">⚡️Getting Started</a> •
+ <a href="#-experiment-results">📊Experiment Results</a>
+</p>
+<p align="center">•
+ <a href="#-citation">🔎Citation </a> •
+ <a href="https://arxiv.org/abs/2402.11453">📃Paper</a>
 </p>
 </div>
 
@@ -170,32 +172,36 @@ Additionally, we present the results of using Gemini Pro Vision as the visual ag
 
 We assessed MatPlotAgent's performance on the visualization subset of the Code Interpreter Benchmark, which was released alongside Qwen-agent, witnessing notable improvements over GPT-4. These results underscore the efficacy of our approach in enhancing visualization capabilities.
 
-<table>
+<table border="1" align="center">
   <thead>
     <tr>
-      <th rowspan="2">Model</th>
-      <th colspan="2">Accuracy of Code Execution Results (%)</th>
+      <th rowspan="2"><strong>Model</strong></th>
+      <th colspan="3" align="center"><strong>Accuracy of Code Execution Results (%)</strong></th>
     </tr>
     <tr>
-      <th>Visualization-Hard↑</th>
-      <th>Visualization-Easy↑</th>
+      <th align="center"><strong>Visualization-Hard</strong></th>
+      <th align="center"><strong>Visualization-Easy</strong></th>
+      <th align="center"><strong>Average</strong></th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>GPT-4 (Reported in this <a href="https://github.com/QwenLM/Qwen-Agent/tree/main/benchmark">link</a>)</td>
-      <td>66.7</td>
-      <td>60.8</td>
+      <td>GPT-4</td>
+      <td align="center">66.7</td>
+      <td align="center">60.8</td>
+      <td align="center">63.8</td>
     </tr>
     <tr>
-      <td>MatPlotAgent</td>
-      <td><b>72.62</b></td>
-      <td><b>68.35</b></td>
+      <td><strong>+ MatPlotAgent</strong></td>
+      <td align="center"><strong>72.6</strong></td>
+      <td align="center"><strong>68.4</strong></td>
+      <td align="center"><strong>70.5</strong></td>
     </tr>
     <tr>
-      <td>MatPlotAgent (w/o Visual Feedback)</td>
-      <td>66.67</td>
-      <td>65.82</td>
+      <td><em>w/o Visual Feedback</em></td>
+      <td align="center">66.7</td>
+      <td align="center">65.8</td>
+      <td align="center">66.3</td>
     </tr>
   </tbody>
 </table>
