@@ -161,7 +161,14 @@ Performance of different LLMs on MatPlotBench. For each model, improvements over
 | **Deepseek-coder-33B-instruct** ([Guo et al.,](https://arxiv.org/abs/2401.14196))  | 30.88  | 36.10 (**+5.22**) | 32.18 (**+1.30**)|
 | **WizardCoder-Python-33B-V1.1** ([Luo et al.,](https://arxiv.org/abs/2306.08568))   | 36.94  | 35.81 (-1.13) | 45.96 (**+9.02**) |
 
-We assessed MatPlotAgent's performance on the visualization subset of the Qwen-Agent Code Interpreter Benchmark, witnessing notable improvements over GPT-4. These results underscore the efficacy of our approach in enhancing visualization capabilities.
+Additionally, we present the results of using Gemini Pro Vision as the visual agent on GPT-4 and GPT-3.5, showcasing a considerable improvement of 7.87 and 5.45, respectively, over the direct decoding baseline. This evidence further demonstrates our method's model-agnostic characteristics by using various multimodal LLMs to achieve improved performance.
+
+| Model   | Direct Decod. | MatPlotAgent w/ Gemini Pro Vision|
+|---------|---------------|-----------------------------------|
+| GPT-4   | 48.86         |                                   56.73 (**+7.87**) |
+| GPT-3.5 | 38.03         |                                   43.48 (**+5.45**) |
+
+We assessed MatPlotAgent's performance on the visualization subset of the Code Interpreter Benchmark, which was released alongside Qwen-agent, witnessing notable improvements over GPT-4. These results underscore the efficacy of our approach in enhancing visualization capabilities.
 
 <table>
   <thead>
