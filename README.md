@@ -153,7 +153,7 @@ Our experiments showcase MatPlotAgent's ability to improve LLM performance acros
 
 Performance of different LLMs on MatPlotBench. For each model, improvements over the direct decoding are highlighted in **bold**.
 
-| Model                                         | Direct Decod. | Zero-Shot CoT | MatPlotAgent      |
+| Model                                         | Direct <br>Decod. | Zero-Shot <br>CoT | MatPlotAgent <br>w/ GPT-4V     |
 |-----------------------------------------------|---------------|---------------|-------------------|
 | **GPT-4**                                     | 48.86         | 45.42 (-3.44) | 61.16 (**+12.30**)|
 | **GPT-3.5**                                   | 38.03         | 37.14 (-0.89) | 47.51 (**+9.48**) |
@@ -165,7 +165,7 @@ Performance of different LLMs on MatPlotBench. For each model, improvements over
 
 Additionally, we present the results of using Gemini Pro Vision as the visual agent on GPT-4 and GPT-3.5, showcasing a considerable improvement of 7.87 and 5.45, respectively, over the direct decoding baseline. This evidence further demonstrates our method's model-agnostic characteristics by using various multimodal LLMs to achieve improved performance.
 
-| Model   | Direct Decod. | MatPlotAgent w/ Gemini Pro Vision|
+| Model   | Direct Decod. | MatPlotAgent<br> w/ Gemini Pro Vision|
 |---------|---------------|-----------------------------------|
 | GPT-4   | 48.86         |                                   56.73 (**+7.87**) |
 | GPT-3.5 | 38.03         |                                   43.48 (**+5.45**) |
@@ -198,7 +198,7 @@ We assessed MatPlotAgent's performance on the visualization subset of the Code I
       <td align="center"><strong>70.5</strong></td>
     </tr>
     <tr>
-      <td><em>w/o Visual Feedback</em></td>
+       <td style="padding-left: 25px;"><em>w/o Visual Feedback</em></td>
       <td align="center">66.7</td>
       <td align="center">65.8</td>
       <td align="center">66.3</td>
