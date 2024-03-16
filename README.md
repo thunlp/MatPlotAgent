@@ -198,7 +198,7 @@ We assessed MatPlotAgent's performance on the visualization subset of the Code I
       <td align="center"><strong>70.5</strong></td>
     </tr>
     <tr>
-       <td style="padding-left: 25px;"><em>w/o Visual Feedback</em></td>
+       <td style="padding-left: 25px;" align="right"><em>w/o Visual Feedback</em></td>
       <td align="center">66.7</td>
       <td align="center">65.8</td>
       <td align="center">66.3</td>
