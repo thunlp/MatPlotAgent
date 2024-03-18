@@ -149,7 +149,7 @@ You will receive the score.
 
 # 📊 Experiment Results
 
-Our experiments showcase MatPlotAgent's ability to improve LLM performance across a variety of tasks, with notable enhancements in plot quality and correctness, supported by both quantitative scores and qualitative assessments.
+Our experiments showcase MatPlotAgent's ability to improve LLM performance across a variety of aspects, with notable enhancements in plot quality and correctness, supported by both quantitative scores and qualitative assessments.
 
 Performance of different LLMs on MatPlotBench. For each model, improvements over the direct decoding are highlighted in **bold**.
 
